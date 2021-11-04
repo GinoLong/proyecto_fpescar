@@ -1,4 +1,4 @@
-Proyecto de pagina web para EducacionIT
+Proyecto de pagina web para Fundacion Pescar
 
 Integrantes:
 
