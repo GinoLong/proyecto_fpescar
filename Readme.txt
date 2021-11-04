@@ -1,6 +1,12 @@
-Thanks for downloading this template!
+Proyecto de pagina web para EducacionIT
 
-Template Name: Valera
-Template URL: https://bootstrapmade.com/valera-free-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Integrantes:
+
+Mauro
+Enzo
+Gaspar
+Didier
+Gino
+
+fecha de inicio:
+04/11
