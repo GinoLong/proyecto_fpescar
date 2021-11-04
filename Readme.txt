@@ -1,4 +1,4 @@
-Proyecto de pagina web para Fundacion Pescar
+Proyecto final para Fundacion Pescar
 
 Integrantes:
 
@@ -8,5 +8,13 @@ Gaspar Kborchev
 Didier Carrascal
 Gino Long
 
-fecha de inicio:
+Fecha de inicio:
 04/11
+ 
+
+Se partio de la base de un template gratuito:
+ 
+Template Name: Valera
+Template URL: https://bootstrapmade.com/valera-free-bootstrap-theme/
+Author: BootstrapMade.com
+License: https://bootstrapmade.com/license/
