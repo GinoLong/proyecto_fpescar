@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 05-11-2021 a las 16:31:08
+-- Tiempo de generación: 09-11-2021 a las 21:20:14
 -- Versión del servidor: 10.4.21-MariaDB
 -- Versión de PHP: 8.0.11
 
@@ -129,14 +129,18 @@ ALTER TABLE `contactos`
 -- Indices de la tabla `publicaciones`
 --
 ALTER TABLE `publicaciones`
-  ADD PRIMARY KEY (`id_publicacion`);
+  ADD PRIMARY KEY (`id_publicacion`),
+  ADD KEY `id_usuario` (`id_usuario`),
+  ADD KEY `id_contacto` (`id_contacto`),
+  ADD KEY `id_categoria_trabajo` (`id_categoria_trabajo`);
 
 --
 -- Indices de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`id_usuario`),
-  ADD UNIQUE KEY `usuario` (`usuario`);
+  ADD UNIQUE KEY `usuario` (`usuario`),
+  ADD KEY `cat_usuario` (`id_cat_usuario`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
@@ -171,6 +175,24 @@ ALTER TABLE `publicaciones`
 --
 ALTER TABLE `usuarios`
   MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `publicaciones`
+--
+ALTER TABLE `publicaciones`
+  ADD CONSTRAINT `publicaciones_ibfk_1` FOREIGN KEY (`id_usuario`) REFERENCES `usuarios` (`id_usuario`),
+  ADD CONSTRAINT `publicaciones_ibfk_2` FOREIGN KEY (`id_contacto`) REFERENCES `contactos` (`id_contacto`),
+  ADD CONSTRAINT `publicaciones_ibfk_3` FOREIGN KEY (`id_categoria_trabajo`) REFERENCES `cat_trabajo` (`id_categoria_trabajo`);
+
+--
+-- Filtros para la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  ADD CONSTRAINT `cat_usuario` FOREIGN KEY (`id_cat_usuario`) REFERENCES `cat_usuarios` (`id_cat_usuario`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
