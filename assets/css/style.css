@@ -504,6 +504,75 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Featured
+--------------------------------------------------------------*/
+.featured .featured-carousel, .featured .featured-slider {
+  overflow: hidden;
+}
+.featured .testimonial-item {
+  box-sizing: content-box;
+  min-height: 320px;
+}
+.featured .testimonial-item .testimonial-img {
+  width: 90px;
+  border-radius: 50%;
+  margin: -40px 0 0 40px;
+  position: relative;
+  z-index: 2;
+  border: 6px solid #fff;
+}
+.featured .testimonial-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 45px;
+  color: #111;
+}
+.featured .testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 0 45px;
+}
+.featured .testimonial-item .quote-icon-left, .featured .testimonial-item .quote-icon-right {
+  color: #ffbbaa;
+  font-size: 26px;
+}
+.featured .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+.featured .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+.featured .testimonial-item p {
+  font-style: italic;
+  margin: 0 15px 0 15px;
+  padding: 20px 20px 60px 20px;
+  background: #fff;
+  position: relative;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
+}
+.featured .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.featured .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #ff7f5d;
+}
+.featured .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ff7f5d;
+}
+
+/*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about .content h3 {
@@ -1046,53 +1115,22 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Contact
+# Publish
 --------------------------------------------------------------*/
-.contact .info {
+.publish .php-email-form {
   width: 100%;
-  background: #fff;
 }
-.contact .info i {
-  font-size: 20px;
-  color: #ff7f5d;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #fff8f6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #150517;
-}
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #62176b;
-}
-.contact .info .email, .contact .info .phone {
-  margin-top: 40px;
-}
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #ff7f5d;
-  color: #fff;
-}
-.contact .php-email-form {
-  width: 100%;
-  background: #fff;
-}
-.contact .php-email-form .form-group {
+.publish .php-email-form .form-group {
   padding-bottom: 8px;
 }
-.contact .php-email-form .error-message {
+.publish .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+.publish .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1100,10 +1138,10 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .error-message br + br {
+.publish .php-email-form .error-message br + br {
   margin-top: 25px;
 }
-.contact .php-email-form .sent-message {
+.publish .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1111,64 +1149,59 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .loading {
+.publish .php-email-form .loading {
   display: none;
-  background: #fff;
   text-align: center;
   padding: 15px;
 }
-.contact .php-email-form .loading:before {
+.publish .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
+  border: 3px solid #cda45e;
+  border-top-color: #1a1814;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 4px;
+.publish .php-email-form input, .publish .php-email-form textarea {
+  border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+  background: #0c0b09;
+  border-color: #625b4b;
+  color: white;
 }
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #ff7f5d;
+.publish .php-email-form input::-webkit-input-placeholder, .publish .php-email-form textarea::-webkit-input-placeholder {
+  color: #a49b89;
 }
-.contact .php-email-form input {
+.publish .php-email-form input::-moz-placeholder, .publish .php-email-form textarea::-moz-placeholder {
+  color: #a49b89;
+}
+.publish .php-email-form input::placeholder, .publish .php-email-form textarea::placeholder {
+  color: #a49b89;
+}
+.publish .php-email-form input:focus, .publish .php-email-form textarea:focus {
+  border-color: #cda45e;
+}
+.publish .php-email-form input {
   height: 44px;
 }
-.contact .php-email-form textarea {
+.publish .php-email-form textarea {
   padding: 10px 12px;
 }
-.contact .php-email-form button[type=submit] {
-  background: #ff7f5d;
+.publish .php-email-form button[type=submit] {
+  background: #cda45e;
   border: 0;
-  padding: 10px 24px;
+  padding: 10px 35px;
   color: #fff;
   transition: 0.4s;
-  border-radius: 4px;
+  border-radius: 50px;
 }
-.contact .php-email-form button[type=submit]:hover {
-  background: #ff9377;
-}
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.publish .php-email-form button[type=submit]:hover {
+  background: #d3af71;
 }
 
 /*--------------------------------------------------------------
