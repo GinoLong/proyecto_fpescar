@@ -127,11 +127,11 @@
                     <div class="validate"></div>
                 </div>
 
-                <div class="mb-3">
+                <!-- <div class="mb-3">
                     <div class="loading">Loading</div>
                     <div class="error-message"></div>
                     <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
-                </div>
+                </div> -->
                 <div class="text-center"><button type="submit">Publicar</button></div>
               </form>
       

@@ -1,3 +1,28 @@
+<?php
+
+    require_once 'class\DB.php';
+
+    if (!empty($_POST['username']) && !empty($_POST['password'])) {
+        
+        $link = Database::getConnection();
+        
+        if (!$link) {
+            echo 'asd';
+        die;
+        }
+
+        // echo '<pre>';
+        // $statement = $link->prepare('SELECT * FROM usuarios');
+        // $statement->execute();
+        
+        // print_r($statement->fetch(PDO::FETCH_ASSOC));
+        // echo '</pre>';
+        header('Location: publicar.php');
+
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -61,6 +86,42 @@
     <!-- End Header -->
 
     <main id="main">
+
+        <section id="contact" class="contact">
+
+            <div class="container" data-aos="fade-up">
+
+                <header class="section-header">
+                    <h2>Login</h2>
+                </header>
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-6">
+
+                        <form action="login.php" method="post" class="php-login-form">
+                            <div class="row gy-4">
+                                <div class="col-md-6">
+                                    <input type="text" name="username" class="form-control" placeholder="Nombre" required>
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <input type="password" class="form-control" name="password" placeholder="Contraseña" required>
+                                </div>
+
+                                <div class="col-md-12 text-center">
+                                    <button type="submit">Log In!</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            </section>
 
     </main>
 

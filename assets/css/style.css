@@ -1237,6 +1237,39 @@ section {
 /*--------------------------------------------------------------
 # Login
 --------------------------------------------------------------*/
+.contact .php-login-form {
+  background: #fafbff;
+  padding: 30px;
+  height: 100%;
+}
+
+.contact .php-login-form input {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 0;
+}
+
+.contact .php-login-form input:focus {
+  border-color: #4154f1;
+}
+
+.contact .php-login-form input {
+  padding: 10px 15px;
+}
+
+.contact .php-login-form button[type=submit] {
+  background: #4154f1;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact .php-login-form button[type=submit]:hover {
+  background: #5969f3;
+}
 
 
 /*--------------------------------------------------------------
