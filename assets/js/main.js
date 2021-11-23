@@ -280,5 +280,4 @@
       preloader.remove()
     });
   }
-
 })()

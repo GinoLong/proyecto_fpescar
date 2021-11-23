@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,18 +45,18 @@
     <header id="header" class="d-flex align-items-center ">
         <div class="container-fluid d-flex align-items-center justify-content-lg-between">
 
-        <h1 class="logo me-auto me-lg-0"><a href="index.html">PLACEHOLDER</a></h1>
+        <h1 class="logo me-auto me-lg-0"><a href="index.php">PLACEHOLDER</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-            <li><a class="nav-link scrollto" href="#about">Acerca de Nosotros</a></li>
-            <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
-            <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
-            <li><a class="nav-link scrollto" href="#pricing">Precios</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Buscar</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Publicar</a></li>
+            <li><a class="nav-link scrollto" href="index.php#about">Acerca de Nosotros</a></li>
+            <li><a class="nav-link scrollto" href="index.php#services">Servicios</a></li>
+            <li><a class="nav-link scrollto" href="index.php#team">Equipo</a></li>
+            <li><a class="nav-link scrollto" href="index.php#pricing">Precios</a></li>
+            <li><a class="nav-link scrollto" href="index.php#contact">Buscar</a></li>
+            <li><a class="nav-link scrollto" href="publicar.php">Publicar</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->

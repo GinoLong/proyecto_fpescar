@@ -1,6 +1,12 @@
 <?php
 
+    require 'alert.php';
     require_once 'class\DB.php';
+
+    session_start();
+    if (session_status() === PHP_SESSION_ACTIVE) {
+        header('Location: publicar.php');
+    };
 
     if (!empty($_POST['username']) && !empty($_POST['password'])) {
         
@@ -11,20 +17,44 @@
         die;
         }
 
-        // echo '<pre>';
-        // $statement = $link->prepare('SELECT * FROM usuarios');
-        // $statement->execute();
-        
-        // print_r($statement->fetch(PDO::FETCH_ASSOC));
-        // echo '</pre>';
-        header('Location: publicar.php');
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
+            $username = $_POST['username'];
+
+            $query = "SELECT
+                    usuario,
+                    contrasena
+                FROM 
+                    usuarios 
+                WHERE usuario = :username";
+
+            $statement = $link->prepare($query);
+
+            $statement->bindParam(':username', $username, PDO::PARAM_STR);
+
+            $statement->execute();
+        
+            if ($statement->rowCount() === 1) {
+                $arrayUsuario = $statement->fetch(PDO::FETCH_ASSOC);
+                $contrasena = $arrayUsuario['contrasena'];
+            
+                if ($_POST['password'] === $contrasena) {
+                    $_SESSION['usuario'] = $arrayUsuario['usuario'];
+                    header('Location: publicar.php');
+                    die;
+                } else {
+                    $usuarioEncontrado = false;
+                }
+            } else {
+                $usuarioEncontrado = false;
+            }    
+        }
     }
 
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -66,7 +96,7 @@
     <header id="header" class="d-flex align-items-center ">
         <div class="container-fluid d-flex align-items-center justify-content-lg-between">
 
-        <h1 class="logo me-auto me-lg-0"><a href="index.html">PLACEHOLDER</a></h1>
+        <h1 class="logo me-auto me-lg-0"><a href="index.php">PLACEHOLDER</a></h1>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
@@ -84,6 +114,14 @@
         </div>
     </header>
     <!-- End Header -->
+
+    <?php
+
+        if (isset($usuarioEncontrado) && $usuarioEncontrado === false) {
+            echo getAlert('Atención', 'Usuario y/o contraseña incorrectos', 'danger');
+        }
+
+    ?>
 
     <main id="main">
 

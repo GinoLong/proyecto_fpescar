@@ -1,33 +1,35 @@
 <?php
 
-class CategoriaUsuario
+class CategoriaTrabajo
 {
-    private ?int $id_cat_usuario = null;
+    private ?int $id_categoria_trabajo = null;
     private ?string $nombre = null;
     private ?string $descripcion = null;
 
     
 
     /**
-     * Get the value of id_cat_usuario
+     * Get the value of id_categoria_trabajo
      *
      * @return  int
      */
-    public function getIdCatUsuario():?int
+    public function getIdCategoriaTrabajo():?int
     {
-        return $this->id_cat_usuario;
+        return $this->id_categoria_trabajo;
     }
 
     /**
-     * Set the value of id_cat_usuario
+     * Set the value of id_categoria_trabajo
      *
-     * @param  int  $id_cat_usuario
-     * @return void
+     * @param  int  $id_categoria_trabajo
+     *
+     * @return  void
      */
-    public function setIdCatUsuario(int $id_cat_usuario)
+    public function setIdCategoriaTrabajo(int $id_categoria_trabajo)
     {
-        $this->id_cat_usuario = $id_cat_usuario;
+        $this->id_categoria_trabajo = $id_categoria_trabajo;
     }
+    
 
     /**
      * Get the value of nombre
@@ -43,18 +45,20 @@ class CategoriaUsuario
      * Set the value of nombre
      *
      * @param  string  $nombre
-     * @return void
+     *
+     * @return  void
      */
     public function setNombre(string $nombre)
     {
         $this->nombre = $nombre;
     }
+
     
 
     /**
      * Get the value of descripcion
      *
-     * @return  string
+     * @return  string | null
      */
     public function getDescripcion():?string
     {
@@ -64,10 +68,11 @@ class CategoriaUsuario
     /**
      * Set the value of descripcion
      *
-     * @param  string  $descripcion
-     * @return void
+     * @param  string | null  $descripcion
+     *
+     * @return  void
      */
-    public function setDescripcion(string $descripcion)
+    public function setDescripcion(?string $descripcion)
     {
         $this->descripcion = $descripcion;
     }

@@ -1,6 +1,6 @@
 <?php
-  session_start(); // must be before any output
-  $username = $_SESSION['username'];
+  session_start();
+  print_r($_SESSION);
 ?>
 
 <!DOCTYPE html>
@@ -49,6 +49,18 @@
       <h2>Encontrá un trabajo, o publica el tuyo!</h2>
       <a href="#about" class="btn-get-started scrollto">Buscar!</a>
       <a href="login.php" class="btn-get-started scrollto">Publicar!</a>
+      <?php
+        if (isset($_SESSION["usuario"])){
+      ?>
+      <a href="logout.php" class="btn-get-started scrollto">Cerrar Sesion!</a>
+      <?php
+        }else{
+      ?>
+        <a href="javascript:void(0);" onclick="cerrarSesion()" class="btn-get-started scrollto">Iniciar sesión!</a>
+      <?php
+        }
+      ?>
+      
     </div>
   </section>
   <!-- End Hero -->
@@ -57,7 +69,7 @@
   <header id="header" class="d-flex align-items-center ">
     <div class="container-fluid d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">PLACEHOLDER</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.php">PLACEHOLDER</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
 
@@ -68,7 +80,7 @@
           <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Precios</a></li>
           <li><a class="nav-link scrollto" href="#contact">Buscar</a></li>
-          <li><a class="nav-link scrollto" href="publicar.html">Publicar</a></li>
+          <li><a class="nav-link scrollto" href="publicar.php">Publicar</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -395,6 +407,13 @@
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
       <div class="container">
+
+        <div class="text-center">
+          <h3>Call To Action</h3>
+          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a class="cta-btn" href="#">Call To Action</a>
+        </div>
+
       </div>
     </section><!-- End Cta Section -->
 
@@ -404,7 +423,7 @@
 
         <div class="section-title">
           <h2>Equipo</h2>
-          <p>Somos un equipo de desarrolladores web que trabaja constantemente para ofrecerles una plataforma gratuita en la que nuestros usuarios puedan ofrecer sus servicio o para brindar soluciones ajustadas a las demandas de otros.</p>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div class="row">
@@ -421,11 +440,12 @@
                 </div>
               </div>
               <div class="member-info">
-                <a href="">Didier Carrascal</a>
-                <span>Analista en Sistemas</span>
+                <h4>Didier Carrascal</h4>
+                <span>Acepto Criptomonedas</span>
               </div>
             </div>
           </div>
+
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
@@ -438,11 +458,12 @@
                 </div>
               </div>
               <div class="member-info">
-                <a href=" ">Enzo Molinari</a>
-                <span>Desarrollador Web Full Stack</span>
+                <h4>Enzo Molinari</h4>
+                <span>Changuero</span>
               </div>
             </div>
           </div>
+
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
@@ -455,11 +476,12 @@
                 </div>
               </div>
               <div class="member-info">
-                <a href="">Gaspar Fernandez</a>
-                <span>Desarrollador Web Full Stack</span>
+                <h4>Gaspar Ksjkajgkkldfjsdg</h4>
+                <span>AFK</span>
               </div>
             </div>
           </div>
+
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
@@ -472,11 +494,12 @@
                 </div>
               </div>
               <div class="member-info">
-                <a href="">Gino Long</a>
-                <span>Desarrollador Web Full Stack</span>
+                <h4>Gino Long</h4>
+                <span>The God</span>
               </div>
             </div>
           </div>
+
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
@@ -489,12 +512,14 @@
                 </div>
               </div>
               <div class="member-info">
-                <a href="">Mauro Fuentes</a>
-                <span>Desarrollador Web Full Stack</span>
+                <h4>Mauro Fuentes</h4>
+                <span>El Payaso</span>
               </div>
             </div>
           </div>
+
         </div>
+
       </div>
     </section><!-- End Team Section -->
 

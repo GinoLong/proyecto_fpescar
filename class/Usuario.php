@@ -91,7 +91,7 @@ Class Usuario
     /**
      * Set the value of nombre
      *
-     * @param  ?string  $nombre
+     * @param  string  $nombre
      * @return void
      */
     public function setNombre(string $nombre)
@@ -124,7 +124,7 @@ Class Usuario
     /**
      * Get the value of direccion
      *
-     * @return  string
+     * @return  string | null
      */
     public function getDireccion():?string
     {
@@ -134,10 +134,10 @@ Class Usuario
     /**
      * Set the value of direccion
      *
-     * @param  string  $direccion
+     * @param  string | null  $direccion
      * @return void
      */
-    public function setDireccion(?string $direccion) // puede ser null
+    public function setDireccion(?string $direccion) 
     {
         $this->direccion = $direccion;
     }
@@ -145,7 +145,7 @@ Class Usuario
     /**
      * Get the value of telefono
      *
-     * @return  string
+     * @return  string | null
      */
     public function getTelefono():?string
     {
@@ -155,10 +155,10 @@ Class Usuario
     /**
      * Set the value of telefono
      *
-     * @param  string  $telefono
+     * @param  string | null  $telefono
      * @return void
      */
-    public function setTelefono(?string $telefono) // puede ser null
+    public function setTelefono(?string $telefono)
     {
         $this->telefono = $telefono;
     }
@@ -188,7 +188,7 @@ Class Usuario
     /**
      * Get the value of calificacion
      *
-     * @return  int
+     * @return  int | null
      */
     public function getCalificacion():?int
     {
@@ -198,10 +198,10 @@ Class Usuario
     /**
      * Set the value of calificacion
      *
-     * @param  int  $calificacion
+     * @param  int | null  $calificacion
      * @return void
      */
-    public function setCalificacion(?int $calificacion) // puede ser null
+    public function setCalificacion(?int $calificacion)
     {
         $this->calificacion = $calificacion;
     }
@@ -230,7 +230,7 @@ Class Usuario
     /**
      * Get the value of fecha_modificacion
      *
-     * @return  string
+     * @return  string | null
      */
     public function getFechaModificacion():?string
     {
@@ -240,10 +240,10 @@ Class Usuario
     /**
      * Set the value of fecha_modificacion
      *
-     * @param  string  $fecha_modificacion
+     * @param  string | null  $fecha_modificacion
      * @return void
      */
-    public function setFechaModificacion(?string $fecha_modificacion) //puede ser null
+    public function setFechaModificacion(?string $fecha_modificacion)
     {
         $this->fecha_modificacion = $fecha_modificacion;
     }
