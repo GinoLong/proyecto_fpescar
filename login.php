@@ -2,11 +2,12 @@
 
     require 'alert.php';
     require_once 'class\DB.php';
-
+    
     session_start();
-    if (session_status() === PHP_SESSION_ACTIVE) {
+
+    if (!empty($_SESSION)) {
         header('Location: publicar.php');
-    };
+    }
 
     if (!empty($_POST['username']) && !empty($_POST['password'])) {
         
@@ -104,8 +105,7 @@
             <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
             <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
             <li><a class="nav-link scrollto" href="#pricing">Precios</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Buscar</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Publicar</a></li>
+            <li><a class="nav-link scrollto" href="buscar.php">Buscar</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>

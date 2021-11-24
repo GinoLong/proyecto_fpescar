@@ -1,6 +1,5 @@
 <?php
   session_start();
-  print_r($_SESSION);
 ?>
 
 <!DOCTYPE html>
@@ -47,20 +46,11 @@
     <div class="hero-container">
       <h1>Oficios</h1>
       <h2>Encontrá un trabajo, o publica el tuyo!</h2>
-      <a href="#about" class="btn-get-started scrollto">Buscar!</a>
-      <a href="login.php" class="btn-get-started scrollto">Publicar!</a>
-      <?php
-        if (isset($_SESSION["usuario"])){
-      ?>
+      <div>
+        <a href="#about" class="btn-get-started scrollto">Buscar!</a>
+        <a href="login.php" class="btn-get-started scrollto">Publicar!</a>
+      </div>
       <a href="logout.php" class="btn-get-started scrollto">Cerrar Sesion!</a>
-      <?php
-        }else{
-      ?>
-        <a href="javascript:void(0);" onclick="cerrarSesion()" class="btn-get-started scrollto">Iniciar sesión!</a>
-      <?php
-        }
-      ?>
-      
     </div>
   </section>
   <!-- End Hero -->
@@ -79,8 +69,7 @@
           <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
           <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Precios</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Buscar</a></li>
-          <li><a class="nav-link scrollto" href="publicar.php">Publicar</a></li>
+          <li><a class="nav-link scrollto" href="buscar.php">Buscar</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
