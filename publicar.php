@@ -1,5 +1,19 @@
 <?php
 session_start();
+
+require_once "class\DB.php";
+
+if (empty($_SESSION)) {
+    header('Location: login.php');
+}
+
+$link = Database::getConnection();
+if (!$link) {
+    echo 'No se pudo conectar';
+    die;
+}
+
+$query = "INSERT INTO "
 ?>
 
 <!DOCTYPE html>
@@ -58,17 +72,10 @@ session_start();
                     <li><a class="nav-link scrollto" href="buscar.php">Buscar</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
-
-            <!-- <div class="header-social-links d-flex align-items-center">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-        </div> -->
-
+            </nav>
         </div>
-    </header><!-- End Header -->
+    </header>
+    <!-- End Header -->
 
     <main id="main">
         <section id="publish" class="publish">
@@ -143,14 +150,5 @@ session_start();
 
     </main>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/purecounter/purecounter.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-</body>
+    <?php
+    include 'incompleto\__footer.php';
