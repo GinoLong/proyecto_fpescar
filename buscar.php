@@ -1,6 +1,12 @@
 <?php
     session_start();
     require_once 'class\DB.php';
+    include_once 'funciones.php';
+
+    $dir = 'assets\\img\\trabajos\\';
+    $trabajosFotos = scandir($dir);
+    array_splice($trabajosFotos, 0, 1);
+    array_splice($trabajosFotos, 0, 1);
 ?>
 
 <!DOCTYPE html>
@@ -46,7 +52,7 @@
     <header id="header" class="d-flex align-items-center ">
         <div class="container-fluid d-flex align-items-center justify-content-lg-between">
 
-        <h1 class="logo me-auto me-lg-0"><a href="index.php">PLACEHOLDER</a></h1>
+        <h1 class="logo me-auto me-lg-0"><a href="index.php">OFICIO</a></h1>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
@@ -66,17 +72,41 @@
 
     <main id="main">
         <?php
-            $statement = Database::getStatement('SELECT nombre FROM cat_trabajo');
+            $statement = Database::getStatement('SELECT nombre, descripcion FROM cat_trabajo ORDER BY nombre ASC');
             $statement->execute();
 
-            $count = 1;
+            // $count = 1;
 
-            while ($statement->fetch(PDO::FETCH_ASSOC)) {
-                echo $count;
-                $count++;
-            }
+            // while ($statement->fetch(PDO::FETCH_ASSOC)) {
+            //     echo $count;
+            //     $count++;
+            // }
         ?>
 
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    
+                        <?php
+                            $trabajos = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+                            $count = 0;
+
+                            foreach ($trabajos as $trabajo) {
+                                getCard($trabajo['nombre'], $trabajo['descripcion'], $dir.$trabajosFotos[$count]);
+                                $count++;
+                            }
+
+
+                            // echo '<pre>';
+                            // print_r($trabajo);
+                            // echo '</pre>';
+                            
+                        ?>
+                                
+                </div>
+            </div>
+        </section>
 
 
     </main>

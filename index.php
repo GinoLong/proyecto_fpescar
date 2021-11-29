@@ -18,7 +18,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Proyecto Final</title>
+  <title>Oficios</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -55,11 +55,7 @@
     <div class="hero-container">
       <h1>Oficios</h1>
       <h2>Encontrá un trabajo, o publica el tuyo!</h2>
-      <!-- <div> -->
-        <a href="publicar.php" class="btn-get-started scrollto">Empieza!</a>
-        <!-- <a href="login.php" class="btn-get-started scrollto">Publicar!</a> -->
-      <!-- </div> -->
-      <!-- <a href="logout.php" class="btn-get-started scrollto">Cerrar Sesion!</a> -->
+      <a href="publicar.php" class="btn-get-started scrollto">Empieza!</a>
     </div>
   </section>
   <!-- End Hero -->
@@ -68,7 +64,7 @@
   <header id="header" class="d-flex align-items-center ">
     <div class="container-fluid d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.php">PLACEHOLDER</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.php">Oficios</a></h1>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul class="">
@@ -170,9 +166,185 @@
     </section>
     <!-- End Featured Section -->
 
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+        <div class="section-title">
+          <h2>Servicios</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
+              <h4 class="title"><span>Obtenga mas visibilidad</span></h4>
+              <p class="description"><a href="#pricing">Patrocine su empleo</a> para que lo vean las personas adecuadas.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-card-checklist" style="color: #e9bf06;"></i></div>
+              <h4 class="title"><span>Encuentre personas de calidad</span></h4>
+              <p class="description">Mediante el uso de un sistema de calificaciones, puede saber que tan recomendable es un usuario.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-bar-chart" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><span>Califique sus habilidades</span></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- End Services Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-down">
+          <h2>Precios</h2>
+          <p>A continuación puede elegir uno de nuestros 3 planes</p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-4 box" data-aos="zoom-in" data-aos-delay="200">
+            <h3>Gratis</h3>
+            <h4>$0<span>por mes</span></h4>
+            <ul>
+              <li><i class="bx bx-check"></i> Puede crear publicaciones</li>
+              <li><i class="bx bx-check"></i> Puede </li>
+              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
+              <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
+              <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+            </ul>
+            <a href="#" class="get-started-btn">Get Started</a>
+          </div>
+
+          <div class="col-lg-4 box featured" data-aos="zoom-in" data-aos-delay="100">
+            <h3>Gold</h3>
+            <h4>$199<span>por mes</span></h4>
+            <ul>
+              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
+              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
+              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
+              <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
+              <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+            </ul>
+            <a href="#" class="get-started-btn">Get Started</a>
+          </div>
+
+          <div class="col-lg-4 box" data-aos="zoom-in" data-aos-delay="200">
+            <h3>Bronze</h3>
+            <h4>$49<span>por mes</span></h4>
+            <ul>
+              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
+              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
+              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
+              <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
+              <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+            </ul>
+            <a href="#" class="get-started-btn">Get Started</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Testimonios</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Ezequiel Puerta</h3>
+                <h4>Panadero</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Elvira Castaño</h3>
+                <h4>Electricista</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Leonor Benavente</h3>
+                <h4>Jardinera</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Ibon Prieto</h3>
+                <h4>Programador Full-Stack</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>Marcel Taboada</h3>
+                <h4>Gasista</h4>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section> 
+
+
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
       <div class="container">
 
         <div class="section-title">
@@ -250,165 +422,6 @@
 
       </div>
     </section><!-- End Our Values Section -->
-
-    <!-- ======= Clients Section ======= -->
-    
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Servicios</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
-              <h4 class="title"><span>Obtenga mas visibilidad</span></h4>
-              <p class="description"><a href="#pricing">Patrocine su empleo</a> para que lo vean las personas adecuadas.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-card-checklist" style="color: #e9bf06;"></i></div>
-              <h4 class="title"><span>Encuentre personas de calidad</span></h4>
-              <p class="description">Mediante el uso de un sistema de calificaciones, puede saber que tan recomendable es un usuario.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-bar-chart" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><span>Califique sus habilidades</span></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mt-4">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-binoculars" style="color:#41cf2e;"></i></div>
-              <h4 class="title"><span>Magni Dolores</span></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-brightness-high" style="color: #d6ff22;"></i></div>
-              <h4 class="title"><span>Nemo Enim</span></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mt-4">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-calendar4-week" style="color: #4680ff;"></i></div>
-              <h4 class="title"><span>Eiusmod Tempor</span></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Testimonios</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Ezequiel Puerta</h3>
-                <h4>Panadero</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Elvira Castaño</h3>
-                <h4>Electricista</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Leonor Benavente</h3>
-                <h4>Jardinera</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Ibon Prieto</h3>
-                <h4>Programador Full-Stack</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Marcel Taboada</h3>
-                <h4>Gasista</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container">
-
-        <div class="text-center">
-          <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
-        </div>
-
-      </div>
-    </section><!-- End Cta Section -->
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
@@ -516,60 +529,7 @@
       </div>
     </section><!-- End Team Section -->
 
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
-      <div class="container">
 
-        <div class="section-title" data-aos="fade-down">
-          <h2>Precios</h2>
-          <p>A continuación puede elegir uno de nuestros 3 planes</p>
-        </div>
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-4 box" data-aos="zoom-in" data-aos-delay="200">
-            <h3>Gratis</h3>
-            <h4>$0<span>por mes</span></h4>
-            <ul>
-              <li><i class="bx bx-check"></i> Puede crear publicaciones</li>
-              <li><i class="bx bx-check"></i> Puede </li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-              <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-            </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
-          </div>
-
-          <div class="col-lg-4 box featured" data-aos="zoom-in" data-aos-delay="100">
-            <h3>Gold</h3>
-            <h4>$199<span>por mes</span></h4>
-            <ul>
-              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-              <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-            </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
-          </div>
-
-          <div class="col-lg-4 box" data-aos="zoom-in" data-aos-delay="200">
-            <h3>Bronze</h3>
-            <h4>$49<span>por mes</span></h4>
-            <ul>
-              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-              <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-            </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">

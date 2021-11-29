@@ -7,8 +7,7 @@
 
     <div class="row  justify-content-center">
       <div class="col-lg-6">
-        <h3>Valera</h3>
-        <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+        <h3>Oficios</h3>
       </div>
     </div>
 
@@ -25,14 +24,14 @@
 
 <div class="container footer-bottom clearfix">
   <div class="copyright">
-    &copy; Copyright <strong><span>Servicios</span></strong>. All Rights Reserved
+    &copy; Copyright <strong><span>Oficios</span></strong>. Todos los derechos reservados
   </div>
   <div class="credits">
-    Designed by <a href="https://bootstrapmade.com/">LMP</a>
+    Diseñado por <a href="https://bootstrapmade.com/">LMP</a>
   </div>
 </div>
 </footer><!-- End Footer -->
-
+<!
 <div id="preloader"></div>
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
