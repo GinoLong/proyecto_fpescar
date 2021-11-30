@@ -27,7 +27,7 @@ function getCategorias($trabajos) {?>
         <option value="" disabled selected hidden>Categoria</option>
     <?php    
     foreach($trabajos as $trabajo) {?>
-        <option value="<?= $trabajo['id_categoria_trabajo'] ?>"><?= $trabajo['nombre'] ?></option>
+        <option value="<?= $trabajo['id_categoria_trabajo'] ?>"><?= $trabajo['nombre'] ?>"</option>
     <?php
     } 
 }

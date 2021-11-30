@@ -104,7 +104,7 @@
                                     <div class="card">
                                         <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1560427183-4efd29c38997?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
                                         <div class="card-body">
-                                            <h4 class="card-title">Arnulfio Perez</h4>
+                                            <h4 class="card-title">Martin Perez</h4>
                                             <p>⭐⭐⭐⭐⭐</p>
                                             <p class="card-text">Panadero</p>
 
@@ -116,7 +116,7 @@
                                     <div class="card">
                                         <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
                                         <div class="card-body">
-                                            <h4 class="card-title">Eduardo Remezzano</h4>
+                                            <h4 class="card-title">Eduardo Romero</h4>
                                             <p>⭐⭐⭐⭐⭐</p>
                                             <p class="card-text">Electricista</p>
 
@@ -127,7 +127,7 @@
                                     <div class="card">
                                         <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1561297331-a9c00b9c2c44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
                                         <div class="card-body">
-                                            <h4 class="card-title">Mariana Metarral</h4>
+                                            <h4 class="card-title">Mariana Gutierrez</h4>
                                             <p>⭐⭐⭐⭐⭐</p>
                                             <p class="card-text">Carpintera</p>
 
@@ -153,7 +153,7 @@
 
         <div class="section-title">
           <h2>Servicios</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>como objetivo crear una página web para brindarles a personas autónomas la oportunidad de ofrecer sus servicios y/o buscar un trabajo particular Creada a fines del 2021, nuestro objetivo es contar con un espacio simple y accesible</p>
         </div>
 
         <div class="row">
@@ -176,7 +176,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bi bi-bar-chart" style="color: #3fcdc7;"></i></div>
               <h4 class="title"><span>Califique sus habilidades</span></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <p class="description">Actualmente contamos con un sistema de calificación personalizada para evaluar el desempeño de los empleadores, tanto como el contratista. Mediante este sistema de calificaciones, puede saber que tan recomendable es un usuario.</p>
             </div>
           </div>
       </div>
@@ -189,7 +189,7 @@
 
         <div class="section-title" data-aos="fade-down">
           <h2>Precios</h2>
-          <p>A continuación puede elegir uno de nuestros 3 planes</p>
+          <p>Puede elegir uno de nuestras planes y obtener beneficios extra.</p>
         </div>
 
         <div class="row no-gutters">
@@ -198,37 +198,36 @@
             <h3>Gratis</h3>
             <h4>$0<span>por mes</span></h4>
             <ul>
-              <li><i class="bx bx-check"></i> Lorem ipsum dolor sit amet.</li>
-              <li><i class="bx bx-check"></i> Lorem ipsum dolor sit.</li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-              <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              <li><i class="bx bx-check"></i> Te permitira encontrar trabajo acorde a tus habilidades</li>
+              <li><i class="bx bx-check"></i> Ofrece la posibilidad de mostrar quién eres</li>
+              <li><i class="bx bx-check"></i> Solicitar y proporcionar recomendaciones</li>
+              <li class="na"><i class="bx bx-x"></i> <span>Ayuda para encontrar y contratar a candidatos</span></li>
+              <li class="na"><i class="bx bx-x"></i> <span>Recibir un número ilimitado de mensajes InMail</span></li>
             </ul>
             <a href="#" class="get-started-btn">Comienza</a>
           </div>
 
           <div class="col-lg-4 box featured" data-aos="zoom-in" data-aos-delay="100">
-            <h3>Gold</h3>
-            <h4>$199<span>por mes</span></h4>
+            <h3>Oro</h3>
+            <h4>$500<span>por mes</span></h4>
             <ul>
-              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-              <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+              <li><i class="bx bx-check"></i> podrás ver todos los usuarios que han visto tu perfil en los úlitmos 90 días</li>
+              <li><i class="bx bx-check"></i> Harás que tu perfil destaque</li>
+              <li><i class="bx bx-check"></i> Ayuda para generar posibles clientes y a crear tu propia clientela</li>
+              <li><i class="bx bx-check"></i> Navegación privada</li>
+              <li><i class="bx bx-check"></i> Interfaz de ventas independiente</li>
             </ul>
             <a href="#" class="get-started-btn">Comienza</a>
           </div>
 
           <div class="col-lg-4 box" data-aos="zoom-in" data-aos-delay="200">
-            <h3>Bronze</h3>
-            <h4>$49<span>por mes</span></h4>
+            <h3>Bronce</h3>
+            <h4>$300<span>por mes</span></h4>
             <ul>
-              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-              <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+              <li><i class="bx bx-check"></i> Mensajes directos</li>
+              <li><i class="bx bx-check"></i> Visualización ilimitada de perfiles</li>
+              <li><i class="bx bx-check"></i> Información sobre candidatos</li>
+              <li><i class="bx bx-check"></i> Más filtros de búsqueda</li>
             </ul>
             <a href="#" class="get-started-btn">Comienza</a>
           </div>
@@ -245,7 +244,7 @@
 
         <div class="section-title">
           <h2>Testimonios</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>A continuacion les presentamos relatos de algunos de nuestros usuarios.</p>
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -285,7 +284,7 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Leonor Benavente</h3>
+                <h3>Leonor Fernandez</h3>
                 <h4>Jardinera</h4>
               </div>
             </div>
@@ -298,7 +297,7 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Ibon Prieto</h3>
+                <h3>Jose Prieto</h3>
                 <h4>Programador Full-Stack</h4>
               </div>
             </div>
@@ -311,7 +310,7 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Marcel Taboada</h3>
+                <h3>Marcelo Gonzales</h3>
                 <h4>Gasista</h4>
               </div>
             </div>
@@ -329,28 +328,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Acerca de Nosotros</h2>
-        </div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quidem iure hic obcaecati suscipit, ut, neque alias possimus enim unde culpa eaque, est voluptatibus expedita saepe odit quos praesentium perferendis magnam animi. Corrupti cupiditate alias qui sed quasi a. Consequatur rerum perspiciatis laudantium ipsam optio a, ab totam. Aliquid maxime provident fugit placeat recusandae quos ratione neque libero perferendis ab. Eos, distinctio. Explicabo, dolore eius. Praesentium perferendis, fugit est omnis iure odit magni quas. Autem consequuntur sequi expedita excepturi tempora iure voluptate nostrum illo! Aperiam iusto libero ducimus fugit iste rerum eligendi, tenetur at, ad reiciendis facere mollitia modi magnam.
-<!--
-        <div class="row content">
-          <div class="col-lg-12 ">
-            <p>
-              Somos un grupo que tiene como objetivo crear una página web para brindarles a personas autónomas la oportunidad de ofrecer sus servicios y/o buscar un trabajo particular.
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> 1) Crea tu cuenta de manera gratuita.</li>
-              <li><i class="ri-check-double-line"></i> 2) Crea tu publicación.</li>
-              <li><i class="ri-check-double-line"></i> 3) Busca una publicación.</li>
-            </ul>
-          </div>
-          <div class="col-lg-12 pt-4 pt-lg-0">
-            <p>
-              Creada a fines del 2021, nuestro objetivo es contar con un espacio simple y accesible.
-            </p>
-            <a href="#" class="btn-learn-more">Mas información</a>
-          </div>
-        </div>
--->
+          <h2>Acerca de Nuestro Sitio</h2>
+        
       </div>
     </section>
     <!-- End About Section -->
@@ -364,7 +343,7 @@
             <div class="card" style='background-image: url("assets/img/our-values-1.jpg");'>
               <div class="card-body">
                 <h5 class="card-title"><a href="">Nuestra Misión</a></h5>
-                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, consequuntur<!--Nuestra misión es organizar las publicaciones de las personas para que todos puedan acceder a ellas y aprovecharlas.--></p>
+                <p class="card-text">Nuestra misión es organizar las publicaciones de las personas para que todos puedan acceder a ellas y aprovecharlas.<!--Nuestra misión es organizar las publicaciones de las personas para que todos puedan acceder a ellas y aprovecharlas.--></p>
               </div>
             </div>
           </div>
@@ -372,7 +351,7 @@
             <div class="card" style='background-image: url("assets/img/our-values-2.jpg");'>
               <div class="card-body">
                 <h5 class="card-title"><a href="">Nuestro Plan</a></h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nobis ipsam porro dolor molestiae eius doloremque nam animi minus at<!--Actualmente contamos con un sistema simple de publicación y busqueda centrado en el País. Nuestro plan es extendernos a nivel mundial y a diversas plataformas.--></p>
+                <p class="card-text">Actualmente contamos con un sistema simple de publicación y busqueda centrado en el País. Nuestro plan es extendernos a nivel mundial y a diversas plataformas.<!--Actualmente contamos con un sistema simple de publicación y busqueda centrado en el País. Nuestro plan es extendernos a nivel mundial y a diversas plataformas.--></p>
               </div>
             </div>
 
@@ -381,7 +360,7 @@
             <div class="card" style='background-image: url("assets/img/our-values-3.jpg");'>
               <div class="card-body">
                 <h5 class="card-title"><a href="">Nuestra Visión</a></h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At eos sed incidunt, sint voluptatibus fuga quia rem quidem nobis? Quaerat.<!--Crear oportunidades económicas para cada miembro del mercado laboral gracias al desarrollo continuo del primer gráfico económico del mundo.--></p>
+                <p class="card-text">Crear oportunidades económicas para cada miembro del mercado laboral gracias al desarrollo continuo del primer gráfico económico del mundo.<!--Crear oportunidades económicas para cada miembro del mercado laboral gracias al desarrollo continuo del primer gráfico económico del mundo.--></p>
               </div>
             </div>
           </div>
@@ -389,7 +368,11 @@
             <div class="card" style='background-image: url("assets/img/our-values-4.jpg");'>
               <div class="card-body">
                 <h5 class="card-title"><a href="">Nuestros Valores</a></h5>
-                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti esse voluptatum tempore aut nihil quos quis iste deserunt excepturi, mollitia repellat corrupti libero atque cum doloribus fuga, culpa accusantium fugit facilis magni voluptates ipsa. Quo dolor repellat enim dolorum sunt.<!--
+                <p class="card-text">Priorizar a los miembros de nuestra comunidad.<br>
+                  Integrar oficios en una red profesional.<br>
+                  Asegurarnos que el contenido que las personas ven en Oficios sea auténtico.<br>
+                  Estamos comprometidos a hacer de Oficios un sitio web seguro.<br>
+                  Atención al cliente, innovación y facilidad de uso.<!--
                   <Priorizar a los miembros de nuestra comunidad.<br>
                   Integrar oficios en una red profesional.<br>
                   Asegurarnos que el contenido que las personas ven en Oficios sea auténtico.<br>
@@ -410,7 +393,7 @@
 
         <div class="section-title">
           <h2>Equipo</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Somos un equipo de desarrolladores web que trabaja constantemente para ofrecerles una plataforma gratuita en la que nuestros usuarios puedan ofrecer sus servicio o para brindar soluciones ajustadas a las demandas de otros.</p>
         </div>
 
         <div class="row d-flex justify-content-center">
