@@ -87,83 +87,64 @@
   <main id="main">
 
     <!-- ======= Featured Section ======= -->
-    <section id="featured" class="featured section-bg">
-      <div class="container">
-
-        <div class="featured-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  "Quería controlar yo cómo captar a los clientes. Antes lo intentaba a través de un blog pero no era suficiente. Ahora tengo una estrategia para hacerlo a través de Oficios"
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/featured/featured-1.jpg" class="testimonial-img" alt="">
-                <h3>Ezequiel Puerta</h3>
-                <h4>Panadero</h4>
-              </div>
-            </div><!-- End featured item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  "La pagina misma me ayudo desde el primer paso de creación de mi perfil hasta ponerlo en marcha"
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/featured/featured-2.jpg" class="testimonial-img" alt="">
-                <h3>Elvira Castaño</h3>
-                <h4>Electricista</h4>
-              </div>
-            </div><!-- End featured item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  "No sabía cómo acercarme a las redes sociales, pero gracias a Oficios, ahora tengo claridad y herramientas prácticas para seguir exponiendo mi perfil"
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/featured/featured-3.jpg" class="testimonial-img" alt="">
-                <h3>Leonor Benavente</h3>
-                <h4>Jardinera</h4>
-              </div>
-            </div><!-- End featured item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  "Oficios me permite exhibir mi experiencia y tabajos de manera ágil a aquellas empresas que pueden ser clientes y me permite ser encontrado por ellos"
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/featured/featured-4.jpg" class="testimonial-img" alt="">
-                <h3>Ibon Prieto</h3>
-                <h4>Programador Full-Stack</h4>
-              </div>
-            </div><!-- End featured item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  "Aprender cómo funciona Oficios es muy sencillo, cómo hacer contactos, cómo hacer crecer mi red de contactos para generar demanda"
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/featured/featured-5.jpg" class="testimonial-img" alt="">
-                <h3>Marcel Taboada</h3>
-                <h4>Gasista</h4>
-              </div>
-            </div><!-- End featured item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
+    <section class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+        <div class="section-title">
+          <h2>Destacados</h2>
         </div>
+            <div class="col-12">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
 
-      </div>
-    </section>
+                    <div class="swiper-slide">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1560427183-4efd29c38997?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Arnulfio Perez</h4>
+                                            <p>⭐⭐⭐⭐⭐</p>
+                                            <p class="card-text">Panadero</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Eduardo Remezzano</h4>
+                                            <p>⭐⭐⭐⭐⭐</p>
+                                            <p class="card-text">Electricista</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1561297331-a9c00b9c2c44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Mariana Metarral</h4>
+                                            <p>⭐⭐⭐⭐⭐</p>
+                                            <p class="card-text">Carpintera</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     <!-- End Featured Section -->
 
     <!-- ======= Services Section ======= -->
@@ -217,13 +198,13 @@
             <h3>Gratis</h3>
             <h4>$0<span>por mes</span></h4>
             <ul>
-              <li><i class="bx bx-check"></i> Puede crear publicaciones</li>
-              <li><i class="bx bx-check"></i> Puede </li>
+              <li><i class="bx bx-check"></i> Lorem ipsum dolor sit amet.</li>
+              <li><i class="bx bx-check"></i> Lorem ipsum dolor sit.</li>
               <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
               <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
               <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
             </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
+            <a href="#" class="get-started-btn">Comienza</a>
           </div>
 
           <div class="col-lg-4 box featured" data-aos="zoom-in" data-aos-delay="100">
@@ -236,7 +217,7 @@
               <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
               <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
             </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
+            <a href="#" class="get-started-btn">Comienza</a>
           </div>
 
           <div class="col-lg-4 box" data-aos="zoom-in" data-aos-delay="200">
@@ -249,7 +230,7 @@
               <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
               <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
             </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
+            <a href="#" class="get-started-btn">Comienza</a>
           </div>
 
         </div>
@@ -274,7 +255,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    Quería controlar yo cómo captar a los clientes. Antes lo intentaba a través de un blog pero no era suficiente. Ahora tengo una estrategia para hacerlo a través de Oficios.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
@@ -287,7 +268,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    La pagina misma me ayudo desde el primer paso de creación de mi perfil hasta ponerlo en marcha.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
@@ -300,7 +281,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    No sabía cómo acercarme a las redes sociales, pero gracias a Oficios, ahora tengo claridad y herramientas prácticas para seguir exponiendo mi perfil.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
@@ -313,7 +294,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    Oficios me permite exhibir mi experiencia y tabajos de manera ágil a aquellas empresas que pueden ser clientes y me permite ser encontrado por ellos.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
@@ -326,7 +307,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                    Aprender cómo funciona Oficios es muy sencillo, cómo hacer contactos, cómo hacer crecer mi red de contactos para generar demanda.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
@@ -349,10 +330,10 @@
 
         <div class="section-title">
           <h2>Acerca de Nosotros</h2>
-        </div>
-
+        </div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quidem iure hic obcaecati suscipit, ut, neque alias possimus enim unde culpa eaque, est voluptatibus expedita saepe odit quos praesentium perferendis magnam animi. Corrupti cupiditate alias qui sed quasi a. Consequatur rerum perspiciatis laudantium ipsam optio a, ab totam. Aliquid maxime provident fugit placeat recusandae quos ratione neque libero perferendis ab. Eos, distinctio. Explicabo, dolore eius. Praesentium perferendis, fugit est omnis iure odit magni quas. Autem consequuntur sequi expedita excepturi tempora iure voluptate nostrum illo! Aperiam iusto libero ducimus fugit iste rerum eligendi, tenetur at, ad reiciendis facere mollitia modi magnam.
+<!--
         <div class="row content">
-          <div class="col-lg-6">
+          <div class="col-lg-12 ">
             <p>
               Somos un grupo que tiene como objetivo crear una página web para brindarles a personas autónomas la oportunidad de ofrecer sus servicios y/o buscar un trabajo particular.
             </p>
@@ -362,14 +343,14 @@
               <li><i class="ri-check-double-line"></i> 3) Busca una publicación.</li>
             </ul>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
+          <div class="col-lg-12 pt-4 pt-lg-0">
             <p>
               Creada a fines del 2021, nuestro objetivo es contar con un espacio simple y accesible.
             </p>
             <a href="#" class="btn-learn-more">Mas información</a>
           </div>
         </div>
-
+-->
       </div>
     </section>
     <!-- End About Section -->
@@ -383,7 +364,7 @@
             <div class="card" style='background-image: url("assets/img/our-values-1.jpg");'>
               <div class="card-body">
                 <h5 class="card-title"><a href="">Nuestra Misión</a></h5>
-                <p class="card-text">Nuestra misión es organizar las publicaciones de las personas para que todos puedan acceder a ellas y aprovecharlas.</p>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, consequuntur<!--Nuestra misión es organizar las publicaciones de las personas para que todos puedan acceder a ellas y aprovecharlas.--></p>
               </div>
             </div>
           </div>
@@ -391,7 +372,7 @@
             <div class="card" style='background-image: url("assets/img/our-values-2.jpg");'>
               <div class="card-body">
                 <h5 class="card-title"><a href="">Nuestro Plan</a></h5>
-                <p class="card-text">Actualmente contamos con un sistema simple de publicación y busqueda centrado en el País. Nuestro plan es extendernos a nivel mundial y a diversas plataformas.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nobis ipsam porro dolor molestiae eius doloremque nam animi minus at<!--Actualmente contamos con un sistema simple de publicación y busqueda centrado en el País. Nuestro plan es extendernos a nivel mundial y a diversas plataformas.--></p>
               </div>
             </div>
 
@@ -400,7 +381,7 @@
             <div class="card" style='background-image: url("assets/img/our-values-3.jpg");'>
               <div class="card-body">
                 <h5 class="card-title"><a href="">Nuestra Visión</a></h5>
-                <p class="card-text">Crear oportunidades económicas para cada miembro del mercado laboral gracias al desarrollo continuo del primer gráfico económico del mundo.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At eos sed incidunt, sint voluptatibus fuga quia rem quidem nobis? Quaerat.<!--Crear oportunidades económicas para cada miembro del mercado laboral gracias al desarrollo continuo del primer gráfico económico del mundo.--></p>
               </div>
             </div>
           </div>
@@ -408,12 +389,12 @@
             <div class="card" style='background-image: url("assets/img/our-values-4.jpg");'>
               <div class="card-body">
                 <h5 class="card-title"><a href="">Nuestros Valores</a></h5>
-                <p class="card-text">
-                  Priorizar a los miembros de nuestra comunidad.<br>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti esse voluptatum tempore aut nihil quos quis iste deserunt excepturi, mollitia repellat corrupti libero atque cum doloribus fuga, culpa accusantium fugit facilis magni voluptates ipsa. Quo dolor repellat enim dolorum sunt.<!--
+                  <Priorizar a los miembros de nuestra comunidad.<br>
                   Integrar oficios en una red profesional.<br>
                   Asegurarnos que el contenido que las personas ven en Oficios sea auténtico.<br>
                   Estamos comprometidos a hacer de Oficios un sitio web seguro.<br>
-                  Atención al cliente, innovación y facilidad de uso.<br>
+                  Atención al cliente, innovación y facilidad de uso.<br>-->
                 </p>
               </div>
             </div>
@@ -432,9 +413,9 @@
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
-        <div class="row">
+        <div class="row d-flex justify-content-center">
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
@@ -452,7 +433,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
@@ -470,7 +451,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
@@ -488,7 +469,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
@@ -506,7 +487,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="">
@@ -536,7 +517,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
+          <h2>Preguntas Frecuentes</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 

@@ -2,6 +2,7 @@
 session_start();
 
 require_once "class\DB.php";
+include_once 'funciones.php';
 
 if (empty($_SESSION)) {
     header('Location: login.php');
@@ -58,8 +59,8 @@ $query = "INSERT INTO "
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center ">
         <div class="container-fluid d-flex align-items-center justify-content-lg-between">
-
-            <h1 class="logo me-auto me-lg-0"><a href="index.php">OFICIO</a></h1>
+            
+            <h1 class="logo me-auto me-lg-0"><a href="index.php">OFICIOS</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
 
@@ -78,6 +79,12 @@ $query = "INSERT INTO "
     <!-- End Header -->
 
     <main id="main">
+        <?php
+        $statement = Database::getStatement('SELECT id_categoria_trabajo, nombre FROM cat_trabajo ORDER BY nombre ASC');
+        $statement->execute();
+        $catTrabajos = $statement->fetchAll(PDO::FETCH_ASSOC);
+        ?>
+
         <section id="publish" class="publish">
             <div class="container" data-aos="fade-up">
 
@@ -90,45 +97,62 @@ $query = "INSERT INTO "
                     <div class="row">
 
                         <!-- Titulo -->
-                        <div class="col-lg-4 col-md-6 form-group">
+                        <div class="col-lg-6 col-md-6 form-group">
                             <input type="text" name="titulo" class="form-control" id="titulo" placeholder="Título" data-rule="minlen:3" data-msg="Ingrese por lo menos 3 carácteres">
                             <div class="validate"></div>
                         </div>
 
                         <!-- Ubicacion -->
-                        <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                        <div class="col-lg-6 col-md-6 form-group mt-3 mt-md-0">
                             <input type="text" name="ubicacion" class="form-control" id="ubicacion" placeholder="Ubicación" data-rule="minlen:3" data-msg="Ingrese por lo menos 3 carácteres">
                             <div class="validate"></div>
                         </div>
 
-                        <!-- Metodos de Pago -->
-                        <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                        <!-- Telefono -->
+                        <div class="col-lg-6 col-md-6 form-group mt-3 ">
                             <input type="text" class="form-control" name="telefono" id="telefono" placeholder="Telefono" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                             <div class="validate"></div>
                         </div>
 
                         <!-- Categoria -->
-                        <div class="col-lg-4 col-md-6 form-group mt-3">
+                        <div class="col-lg-6 col-md-6 form-group mt-3">
                             <select name="categoria" id="categoria" class="form-control">
-                                <option value=""></option>
-                                <option value="Electricista">Electricista</option>
-                                <option value="Carpintero">Carpintero</option>
+                                <?php
+                                getCategorias($catTrabajos);
+                                ?>
                             </select>
                             <!-- <input type="text" name="categoria" class="form-control" id="categoria" placeholder="categoria" data-rule="minlen:4" data-msg="Please enter at least 4 chars"> -->
                             <div class="validate"></div>
                         </div>
 
-
-                        <div class="col-lg-4 col-md-6 form-group mt-3">
-                            <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                            <div class="validate"></div>
+                        <!-- Metodos de pago -->
+                        <div>
+                            <div class="form-check col-lg-6 col-md-6 form-group mt-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Efectivo
+                                </label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6 form-group mt-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Transferencia
+                                </label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6 form-group mt-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Tarjeta
+                                </label>
+                            </div>
+                            <div class="form-check col-lg-6 col-md-6 form-group mt-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    MercadoPago
+                                </label>
+                            </div>
                         </div>
 
-
-                        <div class="col-lg-4 col-md-6 form-group mt-3">
-                            <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
-                            <div class="validate"></div>
-                        </div>
                     </div>
 
                     <!-- Descripción -->
@@ -136,6 +160,12 @@ $query = "INSERT INTO "
                         <textarea class="form-control" name="message" rows="5" placeholder="Descripción"></textarea>
                         <div class="validate"></div>
                     </div>
+
+                    <div class="col-lg-6 col-md-6 form-group mt-3">
+                        <label class="mr-2">Subir Imagenes:</label>
+                        <input type="file" name="file">
+                    </div>
+
 
                     <!-- <div class="mb-3">
                     <div class="loading">Loading</div>
