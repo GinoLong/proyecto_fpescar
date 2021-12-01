@@ -4,7 +4,7 @@ Integrantes:
 
 Mauro Fuentes
 Enzo Molinari
-Gaspar Kborchev
+Gaspar Krbavcic
 Didier Carrascal
 Gino Long
 
